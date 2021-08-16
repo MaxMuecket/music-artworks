@@ -1,13 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Route, RouteProps, Switch } from 'react-router-dom';
 import styles from './App.module.css';
+import SearchPage from './pages/SearchPage/SearchPage';
 
 type CustomRouteProps = RouteProps & {
   Component: () => JSX.Element;
   path: string;
 };
 
-const routes: CustomRouteProps[] = [];
+const routes: CustomRouteProps[] = [
+  { path: '/', Component: SearchPage, exact: true },
+];
 
 function App(): JSX.Element {
   return (
