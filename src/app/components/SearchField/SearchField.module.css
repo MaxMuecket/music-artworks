@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+}
+
+.input {
+  background-color: aliceblue;
+  height: 2em;
+  width: 100%;
+  border-radius: 1em;
+  text-align: center;
+  border: none;
+}
+
+.input:active {
+  background-color: aqua;
+}
