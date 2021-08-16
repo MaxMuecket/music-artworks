@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+}
+
+.searchButton {
+  background-color: aliceblue;
+  border: none;
+  height: 2em;
+  width: 100%;
+  border-radius: 1em;
+}
+
+.searchButton:active {
+  background-color: aqua;
+}
