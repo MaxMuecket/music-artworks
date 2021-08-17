@@ -45,7 +45,7 @@ npm run storybook
 Create an `.env` file inside the main folder with the following environment variables:
 
 ```shell
-PORT=
+PORT=4001
 NODE_ENV=production
 GRAPHBRAINZ_CORS_ORIGIN=true
 ```
